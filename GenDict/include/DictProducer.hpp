@@ -26,7 +26,7 @@ public:
     void storeDict(const char* filepath); //将词典写入文件
     void storeIndex(const char* filepath); //将索引写入文件
     void showFiles() const; //查看文件路径，测试用
-    void sholysict() const; //查看词典，测试用
+    void showDict() const; //查看词典，测试用
 private:
     void getFiles(); //获取文件的绝对路径
     void pushDict(const std::string &word); //存储某个单词

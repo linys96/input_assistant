@@ -186,7 +186,7 @@ void DictProducer::showFiles() const
     } 
 }
 
-void DictProducer::sholysict() const
+void DictProducer::showDict() const
 {
     for(auto &word : _dict){
         cout << word.first << " " << word.second << endl;
